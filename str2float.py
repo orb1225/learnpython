@@ -9,5 +9,4 @@ def str2float(s):
 	return reduce(str2int,map(lambda x:dic[x],str_arr[0]))+float_str(str_arr[1])
 L=str2float('123.456')
 print(L)
-
-
+#这个是旧版本，写的有些乱还有些冗余
